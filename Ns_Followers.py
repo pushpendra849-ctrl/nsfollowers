@@ -8,12 +8,12 @@ from Utils import AES_CBC_NoPadding
 class Ns_Followers:
     def __init__(self):
 
-        self.requests=requests
+        self.requests=requestsself._session='66573404186:TD7TVUsstLLi5P:10:AYdyr8tEGeeXC7Vs5QKF2YIGKRV6BMnqFZoQcMsJPA
         self.__AES_NoPadding = AES_CBC_NoPadding()
 
-        self.__userid='66573404186' #Enter UserID Here
-        self.__username='goravbhai1853' #Enter UserName Here
-        self._session='66573404186:TD7TVUsstLLi5P:10:AYdyr8tEGeeXC7Vs5QKF2YIGKRV6BMnqFZoQcMsJPA' #Enter SessionID Here
+        self.__userid='66972992972' #Enter UserID Here
+        self.__username='ninjaxz2024' #Enter UserName Here
+        self._session='66972992972%3ANaYrSSvhobaDVY%3A4%3AAYdfndprti0Zgjzg7OqkDKvnyIK6-LSNvGTuRXuWGg' #Enter SessionID Here
 
         self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Ip=os.urandom(8).hex().encode()+b'*'+str(random.randint(111,999)).encode()
